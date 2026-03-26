@@ -1,0 +1,40 @@
+1. Importar o arquivo 015-Apoio3 (Funcionário)
+2. Abrir no Power Query
+3. Renomear tabela para "Funcionário"
+4. Definir primeira linha como cabeçalho
+5. Remover linhas em branco/null
+6. Remover duplicidades
+
+7. Transformações:
+- Nome funcionário → MAIÚSCULO
+- Criar coluna com Nome formatado (Primeiras letras maiúsculas)
+- Extrair 5 primeiros dígitos do CEP
+- Extrair 3 últimos dígitos do CEP
+- Extrair primeira letra da coluna "Casado"
+
+8. Tipos de dados:
+- Nascimento → Data
+- Salário Base, Imposto, Benefício → 2 casas decimais
+- Benefício → arredondamento para cima
+
+9. Colunas calculadas:
+- Aumento de 10% no salário base
+- Salário líquido
+- Categoria salarial:
+  > Alto: acima de 50.000
+  > Médio: acima de 20.000
+  > Baixo: restante
+- Idade
+
+10. Medidas DAX:
+- Salário Funcionário
+- Média Salarial
+- Menor Salário
+
+11. Criar tabela "Medidas" e mover medidas
+
+12. Construir dashboard com:
+- Cards
+- Gráfico de pizza
+- Gráfico de barras
+- Tabela
